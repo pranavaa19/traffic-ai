@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+dist/
+build/
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter & cache
+.ipynb_checkpoints/
+
+# Data (keep repo small)
+data/raw_videos/
+data/frames/
+data/splits/
+results/
+*.mp4
+*.avi
+*.mov
+
+# Allow labels to be versioned if small
+!data/labels/
+!data/labels/.gitkeep
+!results/.gitkeep
+!data/splits/.gitkeep
+!data/frames/.gitkeep
