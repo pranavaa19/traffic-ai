@@ -1,8 +1,8 @@
-# Update paths after you prepare splits
-path: .
-train: data/splits/train.txt
-val: data/splits/val.txt
-test: data/splits/test.txt
+path: C:\Users\pranavaa\Downloads\traffic-ai\dataset\ready_dataset
+train: train/images
+val: val/images
+test: test/images
+
 names:
   0: car
   1: bus
