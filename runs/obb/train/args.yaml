@@ -1,12 +1,12 @@
 task: obb
 mode: train
 model: yolov8n-obb.pt
-data: C:\Users\pranavaa\Downloads\traffic-ai\dataset\ready_dataset\dataset.yaml
-epochs: 10
+data: dataset.yaml
+epochs: 30
 time: null
 patience: 100
-batch: 4
-imgsz: 416
+batch: 8
+imgsz: 640
 save: true
 save_period: -1
 cache: false
