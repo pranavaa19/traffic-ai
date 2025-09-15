@@ -3,20 +3,20 @@ train: train/images
 val: val/images
 test: test/images
 
+nc: 15
 names:
-  0: car
-  1: bus
-  2: truck
-  3: motorcycle
+  0: bus
+  1: car
+  2: motorcycle
+  3: truck
   4: jeepney
-  5: tricycle 
+  5: tricycle
   6: van
   7: AMBULANCE
-  8: high-cars-accident
-  9: high-motorcycle-accident
-  10: low-cars-accident
-  11: low-motorcycle-accident
-  12: victim
-  13: container
-  14: motorbike
-  15: passenger_car
+  8: container
+  9: high-cars-accident
+  10: high-motorcycle-accident
+  11: low-cars-accident
+  12: low-motorcycle-accident
+  13: victim
+  14: passenger_car

@@ -1,0 +1,12 @@
+train: train/images
+val: valid/images
+test: test/images
+
+names: 
+  0: bus
+  1: car
+  2: jeepney
+  3: motorcycle
+  4: tricycle
+  5: truck
+  6: van

@@ -1,0 +1,10 @@
+train: train/images
+val: valid/images
+test: test/images
+
+names: 
+  0: high-cars-accident
+  1: high-motorcycle-accident
+  2: low-cars-accident
+  3: low-motorcycle-accident
+  4: victim
